@@ -1,0 +1,41 @@
+.header {
+  background-color: red;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+}
+
+.content-container .content {
+  background-color: orange;
+  width: 70%;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.content-container .sidebar {
+  background-color: aqua;
+  width: 30%;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer {
+  background-color: blue;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.description-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
